@@ -35,7 +35,16 @@ criminosos);  `http://localhost:3000/police/crime`
     ```
     
     
-  - Deletar um crime por: data ou país.  `http://localhost:3000/police/crime/country` 
+  - Deletar um crime por: data ou país.  `http://localhost:3000/police/crime/:country`  and `http://localhost:3000/police/crime/:date`
+  
+  body example:
+   ```
+   {
+	    "country": "Brasil3",
+      "date": "2002-09-27 00:00:00"
+   }
+   ```
+  
   
   - Listar crimes por: Range de data, armas ou criminosos
   
