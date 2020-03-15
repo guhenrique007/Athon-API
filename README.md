@@ -36,5 +36,7 @@ criminosos);  `http://localhost:3000/police/crime`
     
     
   - Deletar um crime por: data ou país.
+    `http://localhost:3000/police/crime/country`
+  
   - Listar crimes por: Range de data, armas ou criminosos
   
