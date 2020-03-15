@@ -8,7 +8,10 @@ crime.  `http://localhost:3000/police/weapons`
 criminosos, país e data).  `http://localhost:3000/police/crime/:id`
   - Inserir um novo crime com todas as suas informações agregadas(armas, vitimas,
 criminosos);  `http://localhost:3000/police/crime`
-    body example:
+
+
+    body example: 
+    
     ```
     {
       "country": "Brasil",
@@ -30,6 +33,8 @@ criminosos);  `http://localhost:3000/police/crime`
       ]
     }
     ```
+    
+    
   - Deletar um crime por: data ou país.
   - Listar crimes por: Range de data, armas ou criminosos
   
