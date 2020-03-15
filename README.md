@@ -2,5 +2,6 @@
 
 - Run with `npm start`
 - Requests:
-  - first  
+  - Trazer todas as armas (nome e tipo) do sistema que já foram utilizadas em algum
+crime.  `http://localhost:3000/police/weapons`
   
