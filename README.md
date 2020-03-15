@@ -46,11 +46,9 @@ criminosos);  `http://localhost:3000/police/crime`
    ```
   
   
-  - Listar crimes por: Range de data, armas ou criminosos
-  
-  `http://localhost:3000/police/crime/criminal/:criminal_name`,
-  `http://localhost:3000/police/crime/weapon/:weapon_name`,
-  `http://localhost:3000/police/crime/date/:date1/:date2`
+  - Listar crimes por: Range de data, armas ou criminosos  `http://localhost:3000/police/crime/criminal/:criminal_name`,
+    `http://localhost:3000/police/crime/weapon/:weapon_name`,
+    `http://localhost:3000/police/crime/date/:date1/:date2`
   
   
   
